@@ -18,5 +18,5 @@ submit.addEventListener('click', function(){
         // document.getElementById('icon').innerHTML = icon;
         document.getElementById('hum').innerHTML = "Current Humidity: "+hum+"%";
     })
-    .catch(res => swal("error", "Please Enter Right City", "success"))
+    .catch(res => swal("Error Message", "Please Enter Right City", "success"))
 })
