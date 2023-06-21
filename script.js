@@ -11,12 +11,12 @@ submit.addEventListener('click', function(){
         const county = data.location.country;
         const hum = data.current.humidity;
         
-        document.getElementById('city').innerHTML = "City Name: "+ cityName;
+        document.getElementById('city').innerHTML = "City: "+ cityName;
         document.getElementById('temp').innerHTML = "Temperature: "+ temp+"&deg;C";
-        document.getElementById('des').innerHTML = "Weather Condition: "+ description;
+        document.getElementById('des').innerHTML = "Weather: "+ description;
         document.getElementById('country').innerHTML = "Country: "+county;
         // document.getElementById('icon').innerHTML = icon;
         document.getElementById('hum').innerHTML = "Current Humidity: "+hum+"%";
     })
-    .catch(res => alert("Please Enter Right City Name"))
+    .catch(res => swal("error", "Please Enter Right City", "success"))
 })
