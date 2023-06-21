@@ -1,2 +1,4 @@
 GitHub Link:
-GitHub: https://github.com/flashraj/weatherApplication
+https://github.com/flashraj/weatherApplication
+Netlify Link:
+https://64933a55ed538f07ceacaad1--spectacular-figolla-d719a8.netlify.app/
